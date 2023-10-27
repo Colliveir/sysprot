@@ -1,0 +1,99 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    background-image: url(images/backgroundMA.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+}
+
+.all{
+    min-height: 900px;
+    padding: 20px;
+}
+
+textarea{
+    min-height: 105px;
+}
+
+header {
+    text-align: right;
+    padding: 10px;
+}
+
+.btnheader{
+    margin: 10px 5px;
+}
+
+.logo{
+    float: left;
+    width: 80px;
+    position: relative;
+    left: 5%;
+}
+
+.painel {
+    padding: 5%;
+    margin: 5% 2%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.6);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.inputpainel {
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 90%;
+    margin: 5px;
+    padding: 10px;
+    color: black;
+    background: white;
+}
+
+#obs{
+    height: 105px;
+}
+
+.submit {
+   
+    width: 50%;
+    margin: 5px 0;
+    transition: box-shadow .1s;
+}
+
+.submit:hover {
+    box-shadow: 0 0 20Spx rgba(33, 33, 33, 0.502); 
+}
+
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+footer img{
+    width: 4%;
+}
+
+@media screen and (max-width: 768px) {}
